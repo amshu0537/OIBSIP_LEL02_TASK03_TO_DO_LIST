@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lavender;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-color: darkblue;
+}
+
+.add-task {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-task input[type="text"] {
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.add-task button {
+    padding: 5px 10px;
+    text-align: center;
+    background-color: powderblue;
+}
+
+#pending-tasks,
+#completed-tasks {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    text-align: center;
+}
